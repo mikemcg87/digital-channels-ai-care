@@ -1,14 +1,18 @@
 {
-  "name": "ai-chat-widget",
+  "name": "digital-channels-ai-care",
   "version": "0.1.0",
   "private": true,
-  "description": "Embeddable AI chat widget: a Next.js app serving a drop-in chat UI (with an /embed route) backed by an OpenAI chat route.",
+  "description": "Prototype and design pack for AI-powered email and chat customer care: intent, routing, handoff and escalation, configurable per brand.",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "verify": "npm run typecheck && npm run test && npm run build"
   },
   "dependencies": {
     "next": "15.3.1",
@@ -19,8 +23,13 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.1",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^2"
   }
 }
