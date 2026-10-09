@@ -2,6 +2,8 @@
   "name": "ai-chat-widget",
   "version": "0.1.0",
   "private": true,
+  "description": "Embeddable AI chat widget: a Next.js app serving a drop-in chat UI (with an /embed route) backed by an OpenAI chat route.",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
