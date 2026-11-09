@@ -1,5 +1,7 @@
 # Digital Channels AI Care
 
+[![CI](https://github.com/mikemcg87/digital-channels-ai-care/actions/workflows/ci.yml/badge.svg)](https://github.com/mikemcg87/digital-channels-ai-care/actions/workflows/ci.yml)
+
 A design pack **and** a runnable prototype for AI-powered **email and chat**
 customer care: how enquiries are classified, when the AI answers, when it drafts
 for a human, and when and how it hands off — configurable per brand.
